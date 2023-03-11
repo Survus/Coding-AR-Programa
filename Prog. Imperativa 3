@@ -76,8 +76,9 @@ Resolución: sumaSinSentido()
 Ejercicio 10: Variables globales
 definí una función ascensorSobrecargado, que toma una cantidad de personas y retorna si entre todas superan la carga máxima de 300 kg.
 
-Resolución: function ascensorSobrecargado(cantPersonas){
-  let cargaMaximaEnKilogramos = 300;
+Resolución: 
+let cargaMaximaEnKilogramos = 300;
+function ascensorSobrecargado(cantPersonas){
   return (pesoPromedioPersonaEnKilogramos * cantPersonas) > cargaMaximaEnKilogramos; 
 }
 
